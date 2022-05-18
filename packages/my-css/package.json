@@ -1,7 +1,7 @@
 {
   "name": "@my/css",
   "version": "0.1.0",
-  "description": "",
+  "description": "d",
   "main": "index.js",
   "scripts": {
     "dev": "echo hello, @my/css",
