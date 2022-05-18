@@ -1,0 +1,26 @@
+{
+  "name": "@my/rollup-compoonents",
+  "version": "0.1.0",
+  "description": "> TODO: description",
+  "author": "hyeseonhan <h1225hs@gmail.com>",
+  "homepage": "https://github.com/hyeseonhan/monorepo-with-components-poc#readme",
+  "license": "ISC",
+  "main": "lib/rollup-components.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyeseonhan/monorepo-with-components-poc.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/hyeseonhan/monorepo-with-components-poc/issues"
+  }
+}
