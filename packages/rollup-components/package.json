@@ -1,26 +1,19 @@
 {
   "name": "@my/rollup-compoonents",
   "version": "0.1.0",
-  "description": "> TODO: description",
   "author": "hyeseonhan <h1225hs@gmail.com>",
-  "homepage": "https://github.com/hyeseonhan/monorepo-with-components-poc#readme",
   "license": "ISC",
-  "main": "lib/rollup-components.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hyeseonhan/monorepo-with-components-poc.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/hyeseonhan/monorepo-with-components-poc/issues"
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "^18.0.9",
+    "autoprefixer": "^10.4.7",
+    "react": "^18.1.0",
+    "rollup": "^2.74.0",
+    "rollup-plugin-dts": "^4.2.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.4"
   }
 }
